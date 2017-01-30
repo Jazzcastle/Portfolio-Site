@@ -17,7 +17,7 @@ header {
   padding-top: 25px;
   height: 150px; }
 
-@media (max-width: 639px) {
+@media (max-width: 1023px) {
   header {
     background: #3cc0d6;
     padding-top: 12px;
@@ -25,9 +25,10 @@ header {
 .logo-container {
   display: inline-block;
   width: 100px;
-  height: 100px; }
+  height: 100px;
+  margin-left: 15px; }
 
-@media (max-width: 639px) {
+@media (max-width: 1023px) {
   .logo-container {
     display: inline-block;
     width: 50px;
@@ -37,7 +38,7 @@ header {
   .off-canvas li {
     margin: 10px 0; }
   .off-canvas a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: rgba(255, 255, 255, 0.8); }
 
@@ -199,20 +200,27 @@ header {
     FOOTER
 *******************************************************************************/
 footer {
-  height: 100px;
+  height: 150px;
   width: 100%;
-  background: #5a5a5a; }
+  background: #313131; }
 
 .footer-icons {
-  width: 100%; }
+  width: 100%;
+  padding-top: 35px; }
+  .footer-icons h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #bfbfbf; }
   .footer-icons ul {
-    margin: 0;
-    text-align: center; }
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 15px; }
   .footer-icons li {
     display: inline-block;
-    margin-right: 30px; }
+    margin: 0 30px 0 0px; }
   .footer-icons a {
-    color: white;
+    color: #bfbfbf;
     font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */

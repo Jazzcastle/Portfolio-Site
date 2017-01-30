@@ -3,23 +3,31 @@
 *******************************************************************************/
 
 footer {
-    height: 100px;
+    height: 150px;
     width: 100%;
-    background: #5a5a5a;
+    background: #313131;
 }
 
 .footer-icons {
     width: 100%;
-    ul {
-        margin: 0;
+    padding-top: 35px;
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
         text-align: center;
+        color: #bfbfbf;
+    }
+    ul {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 15px;
     }
     li {
         display: inline-block;
-        margin-right: 30px;
+        margin: 0 30px 0 0px;
     }
     a {
-        color: white;
+        color: #bfbfbf;
         font-size: 30px;
     }
 }
