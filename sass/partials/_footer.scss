@@ -1,0 +1,25 @@
+/*******************************************************************************
+    FOOTER
+*******************************************************************************/
+
+footer {
+    height: 100px;
+    width: 100%;
+    background: #5a5a5a;
+}
+
+.footer-icons {
+    width: 100%;
+    ul {
+        margin: 0;
+        text-align: center;
+    }
+    li {
+        display: inline-block;
+        margin-right: 30px;
+    }
+    a {
+        color: white;
+        font-size: 30px;
+    }
+}
